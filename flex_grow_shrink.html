@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<style media="screen">
+
+
+.container{background-color:blue;
+  height:200px;
+  display:flex;
+  flex-direction:row;
+}
+
+.item{background-color:green;
+      color:yellow;
+      border:1px solid yellow;
+      }
+
+      .item:nth-child(2){
+      flex-shrink:2;
+      flex-basis:600px;}
+
+      .item:nth-child(1){
+      flex-shrink:1;
+      flex-basis:600px;}
+
+
+
+
+</style>
+  </head>
+  <body>
+
+<div class="container">
+<div class="item">1</div>
+<div class="item">2</div>
+<div class="item">3</div>
+<div class="item">4</div>
+<div class="item">5</div>
+
+</div>
+
+
+  </body>
+</html>
